@@ -35,8 +35,8 @@ paths:
         format: string
       - in: query
         name: label
-        description: "A label for the device; this is how the device will be designated
-          in the customer\u2019s Umbrella dashboard"
+        description: A label for the device; this is how the device will be designated
+          in the customers Umbrella dashboard
         type: string
         format: string
       - in: query
