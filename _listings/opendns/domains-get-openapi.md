@@ -5,8 +5,8 @@ x-complete: 0
 info:
   title: OpenDNS Get Domains
   version: 1.0.0
-  description: "To gather the lists of domains already added to the shared customer\u2019s
-    domain list, run a GET request against the domains endpoint of the API."
+  description: To gather the lists of domains already added to the shared customer???s
+    domain list, run a GET request against the domains endpoint of the API.
 schemes:
 - http
 produces:
@@ -32,7 +32,7 @@ paths:
       - in: query
         name: label
         description: A label for the device; this is how the device will be designated
-          in the customers Umbrella dashboard
+          in the customer???s Umbrella dashboard
         type: string
         format: string
       - in: query
@@ -239,8 +239,8 @@ paths:
   /ips/{ip}/latest_domains:
     get:
       summary: Latest Malicious Domains
-      description: "The latest_domains endpoint shows whether the IP address you\u2019ve
-        entered as input has any known malicious domains associated with it."
+      description: The latest_domains endpoint shows whether the IP address you???ve
+        entered as input has any known malicious domains associated with it.
       operationId: latestMaliciousDomains
       x-api-path-slug: ipsiplatest-domains-get
       parameters:
@@ -269,8 +269,8 @@ paths:
   /domains:
     get:
       summary: Get Domains
-      description: "To gather the lists of domains already added to the shared customer\u2019s
-        domain list, run a GET request against the domains endpoint of the API."
+      description: To gather the lists of domains already added to the shared customer???s
+        domain list, run a GET request against the domains endpoint of the API.
       operationId: getDomains
       x-api-path-slug: domains-get
       responses:

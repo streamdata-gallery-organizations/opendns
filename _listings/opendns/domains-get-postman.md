@@ -2,7 +2,7 @@
   "info": {
     "name": "OpenDNS Get Domains",
     "_postman_id": "4876a3d5-ed9a-41dd-afcc-5e53d00ec4fe",
-    "description": "To gather the lists of domains already added to the shared customer’s domain list, run a GET request against the domains endpoint of the API.",
+    "description": "To gather the lists of domains already added to the shared customer???s domain list, run a GET request against the domains endpoint of the API.",
     "schema": "https://schema.getpostman.com/json/collection/v2.0.0/"
   },
   "item": [
@@ -97,7 +97,7 @@
             "body": {
               "mode": "raw"
             },
-            "description": "To gather the lists of domains already added to the shared customer’s domain list, run a GET request against the domains endpoint of the API."
+            "description": "To gather the lists of domains already added to the shared customer???s domain list, run a GET request against the domains endpoint of the API."
           },
           "response": [
             {
@@ -434,7 +434,7 @@
             "body": {
               "mode": "raw"
             },
-            "description": "The latest_domains endpoint shows whether the IP address you’ve entered as input has any known malicious domains associated with it."
+            "description": "The latest_domains endpoint shows whether the IP address you???ve entered as input has any known malicious domains associated with it."
           },
           "response": [
             {

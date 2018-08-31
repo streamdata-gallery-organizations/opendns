@@ -32,7 +32,7 @@ paths:
       - in: query
         name: label
         description: A label for the device; this is how the device will be designated
-          in the customers Umbrella dashboard
+          in the customer???s Umbrella dashboard
         type: string
         format: string
       - in: query
@@ -239,8 +239,8 @@ paths:
   /ips/{ip}/latest_domains:
     get:
       summary: Latest Malicious Domains
-      description: "The latest_domains endpoint shows whether the IP address you\u2019ve
-        entered as input has any known malicious domains associated with it."
+      description: The latest_domains endpoint shows whether the IP address you???ve
+        entered as input has any known malicious domains associated with it.
       operationId: latestMaliciousDomains
       x-api-path-slug: ipsiplatest-domains-get
       parameters:

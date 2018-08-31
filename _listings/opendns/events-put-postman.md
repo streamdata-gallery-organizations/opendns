@@ -414,7 +414,7 @@
             "body": {
               "mode": "raw"
             },
-            "description": "The latest_domains endpoint shows whether the IP address you’ve entered as input has any known malicious domains associated with it."
+            "description": "The latest_domains endpoint shows whether the IP address you???ve entered as input has any known malicious domains associated with it."
           },
           "response": [
             {

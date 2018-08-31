@@ -33,7 +33,7 @@ paths:
       - in: query
         name: label
         description: A label for the device; this is how the device will be designated
-          in the customers Umbrella dashboard
+          in the customer???s Umbrella dashboard
         type: string
         format: string
       - in: query

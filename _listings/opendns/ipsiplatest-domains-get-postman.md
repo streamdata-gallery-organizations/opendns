@@ -2,7 +2,7 @@
   "info": {
     "name": "OpenDNS Latest Malicious Domains",
     "_postman_id": "63dfa6fb-86e5-4104-8d01-97bd4453e94a",
-    "description": "The latest_domains endpoint shows whether the IP address you’ve entered as input has any known malicious domains associated with it.",
+    "description": "The latest_domains endpoint shows whether the IP address you???ve entered as input has any known malicious domains associated with it.",
     "schema": "https://schema.getpostman.com/json/collection/v2.0.0/"
   },
   "item": [
@@ -414,7 +414,7 @@
             "body": {
               "mode": "raw"
             },
-            "description": "The latest_domains endpoint shows whether the IP address you’ve entered as input has any known malicious domains associated with it."
+            "description": "The latest_domains endpoint shows whether the IP address you???ve entered as input has any known malicious domains associated with it."
           },
           "response": [
             {
